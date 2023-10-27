@@ -5,10 +5,10 @@
         "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
         "description": {
           "moniker": "strangelove",
-          "identity": "",
-          "website": "",
-          "security_contact": "",
-          "details": ""
+          "identity": "158DA6C7FCFB7BD23988D9C0D0D8B80F1C5C70B5",
+          "website": "https://strange.love",
+          "security_contact": "infra@strange.love",
+          "details": "Gentlemen, you can't fight in here! This is the War Room!"
         },
         "commission": {
           "rate": "0.100000000000000000",
