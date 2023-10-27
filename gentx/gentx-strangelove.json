@@ -11,7 +11,7 @@
           "details": "Gentlemen, you can't fight in here! This is the War Room!"
         },
         "commission": {
-          "rate": "0.100000000000000000",
+          "rate": "0.050000000000000000",
           "max_rate": "0.200000000000000000",
           "max_change_rate": "0.010000000000000000"
         },
@@ -57,6 +57,6 @@
     "tip": null
   },
   "signatures": [
-    "Ubij1z5LLV5dOz1Lg671Jlpfg0f3H2/ALTye/3IO5Qd/xyQ+UD/1OCuT62REbZXvC9vUJRtjaXob1+MWjHD93A=="
+    "c46RvuQnNDSI10bwzPNW7Vd1WkPzSwOzTt1YXyDk6G4AZyyOhZc2EvrAqdFkD4NW2vsR+Omq6bjN04nO5u1Qzg=="
   ]
 }
