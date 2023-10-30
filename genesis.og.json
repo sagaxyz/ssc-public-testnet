@@ -1,0 +1,767 @@
+{
+  "genesis_time": "2023-10-26T17:23:25.039271Z",
+  "chain_id": "ssc-testnet-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": ["ed25519"]
+    },
+    "version": {
+      "app": "0"
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "06-solomachine": null,
+    "07-tendermint": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1m9e39ut4gu5c2j0eszhqr4cm6nwxv6hntrghr8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1vpfntljmldpff8l6e8wdf74qgxyku4yq5p46ns",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga106y6thy7gphzrsqq443hl69vfdvntgz2dnsqym",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga14ptc5fd8m3u777rjvyk3nvhx5dfe73836akfn9",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1cxde2pxgkqnndnlzdrkxjungnw7znk29d5mk9e",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1u4ks3jtyzgnrjm3dw62apa25h0vk50sgwetmdx",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1l320gzp8p08tx4rs0fgqd0e4epegwud2sy32m2",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga14ptjm2lxqhf7mr6h2c450q78caxzd3njkxan03",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1asfnpjjw56phtcjl6q2nxcp90lrsuj4uf6vhhc",
+          "pub_key": null,
+          "account_number": "8",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1qp5vg3yj54ppgwtrs9xv7qzt97xegc88p0fxz9",
+          "pub_key": null,
+          "account_number": "9",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1x72h6l0carym5w8wt4ktcjztjy4gere8sv8hnq",
+          "pub_key": null,
+          "account_number": "10",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1x5wgh6vwye60wv3dtshs9dmqggwfx2lddn4ttf",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1ye6704km459dsu09rhp68xyhd8u3wwfx5p4jv4",
+          "pub_key": null,
+          "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga10jt79knclzrn70dm57ta9vcwry2dwg2yfluqq8",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1qkqjre75w20erffgl3j3t6gkcsejyt0ujjnhgk",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga14qekdkj2nmmwea4ufg9n002a3pud23y8m3eekk",
+          "pub_key": null,
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1s3960ghrds6vf09mu4wtmj3l3puxd4mgd75m35",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga10f7jk2utqe07p62stg40apef8ylsgpw3kcnmt2",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1qejlpvtz3jnwqa98vuz2laecw00k0jx0qarxzr",
+          "pub_key": null,
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1wkjnm4slepltcly74kx4g7pn3x6knwzqygjwww",
+          "pub_key": null,
+          "account_number": "19",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1rdssl22ysxyendrkh2exw9zm7hvj8d2ju346g3",
+          "pub_key": null,
+          "account_number": "20",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga16p4cejpaqpuha65hqyj85k5lx4umw7qzku37eg",
+          "pub_key": null,
+          "account_number": "21",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga17gk4chqd0lrkyamrxdmu62czmu0dpnemmxlymn",
+          "pub_key": null,
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1gme3rzzddpf4hkdngpruz5e4739lqsyyakgu0j",
+          "pub_key": null,
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1rcs5sw5yy9r04xsultcqv6tj73408qnawmlxqw",
+          "pub_key": null,
+          "account_number": "24",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1yuvju0cztlahsf6f37z9j83vwyzgj6pzhx090f",
+          "pub_key": null,
+          "account_number": "25",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1sctjtkc276nvgkq492lkgdnyqyvp6g3wlecf5u",
+          "pub_key": null,
+          "account_number": "26",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1x0cavhfyyka0xxvzjg2ux9ffrlklkng4gjf7af",
+          "pub_key": null,
+          "account_number": "27",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1sw38dft7tkedgjd9jddhekfwcw8cmql0ckhs2g",
+          "pub_key": null,
+          "account_number": "28",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1zm0pu6tndrs4kenvpn5w8xwq2crngx0js47g3u",
+          "pub_key": null,
+          "account_number": "29",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga1rs8spahd473px8kcdx38e5dwm2g04a8z4ygved",
+          "pub_key": null,
+          "account_number": "30",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "saga157y632xnzjxzme0qnhymcwr3gkrz46ls4zuted",
+          "pub_key": null,
+          "account_number": "31",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "saga1qp5vg3yj54ppgwtrs9xv7qzt97xegc88p0fxz9",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1qkqjre75w20erffgl3j3t6gkcsejyt0ujjnhgk",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1qejlpvtz3jnwqa98vuz2laecw00k0jx0qarxzr",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1zm0pu6tndrs4kenvpn5w8xwq2crngx0js47g3u",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1rdssl22ysxyendrkh2exw9zm7hvj8d2ju346g3",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1rs8spahd473px8kcdx38e5dwm2g04a8z4ygved",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1rcs5sw5yy9r04xsultcqv6tj73408qnawmlxqw",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1ye6704km459dsu09rhp68xyhd8u3wwfx5p4jv4",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1yuvju0cztlahsf6f37z9j83vwyzgj6pzhx090f",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1x0cavhfyyka0xxvzjg2ux9ffrlklkng4gjf7af",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1x5wgh6vwye60wv3dtshs9dmqggwfx2lddn4ttf",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1x72h6l0carym5w8wt4ktcjztjy4gere8sv8hnq",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1gme3rzzddpf4hkdngpruz5e4739lqsyyakgu0j",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1vpfntljmldpff8l6e8wdf74qgxyku4yq5p46ns",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1wkjnm4slepltcly74kx4g7pn3x6knwzqygjwww",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga10f7jk2utqe07p62stg40apef8ylsgpw3kcnmt2",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga10jt79knclzrn70dm57ta9vcwry2dwg2yfluqq8",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga106y6thy7gphzrsqq443hl69vfdvntgz2dnsqym",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1sw38dft7tkedgjd9jddhekfwcw8cmql0ckhs2g",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1s3960ghrds6vf09mu4wtmj3l3puxd4mgd75m35",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1sctjtkc276nvgkq492lkgdnyqyvp6g3wlecf5u",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga157y632xnzjxzme0qnhymcwr3gkrz46ls4zuted",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "999999690000000"
+            }
+          ]
+        },
+        {
+          "address": "saga14qekdkj2nmmwea4ufg9n002a3pud23y8m3eekk",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga14ptjm2lxqhf7mr6h2c450q78caxzd3njkxan03",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga14ptc5fd8m3u777rjvyk3nvhx5dfe73836akfn9",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1cxde2pxgkqnndnlzdrkxjungnw7znk29d5mk9e",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga16p4cejpaqpuha65hqyj85k5lx4umw7qzku37eg",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1m9e39ut4gu5c2j0eszhqr4cm6nwxv6hntrghr8",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1u4ks3jtyzgnrjm3dw62apa25h0vk50sgwetmdx",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1asfnpjjw56phtcjl6q2nxcp90lrsuj4uf6vhhc",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga17gk4chqd0lrkyamrxdmu62czmu0dpnemmxlymn",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        },
+        {
+          "address": "saga1l320gzp8p08tx4rs0fgqd0e4epegwud2sy32m2",
+          "coins": [
+            {
+              "denom": "utsaga",
+              "amount": "10000000"
+            }
+          ]
+        }
+      ],
+      "supply": [],
+      "denom_metadata": [
+        {
+          "description": "The native staking token of the Saga Securing Chain Testnet.",
+          "denom_units": [
+            {
+              "denom": "utsaga",
+              "exponent": 0,
+              "aliases": ["microtsaga"]
+            },
+            {
+              "denom": "tsaga",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "utsaga",
+          "display": "tsaga",
+          "name": "tsaga",
+          "symbol": "tsaga",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "utsaga",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "utsaga",
+            "amount": "100000000"
+          }
+        ],
+        "max_deposit_period": "86400s",
+        "voting_period": "86400s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true
+      }
+    },
+    "group": {
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": ["06-solomachine", "07-tendermint", "09-localhost"]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": ["*"]
+        }
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "utsaga",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "ssc": {
+      "params": {}
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 20,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "utsaga",
+        "min_commission_rate": "0.000000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
